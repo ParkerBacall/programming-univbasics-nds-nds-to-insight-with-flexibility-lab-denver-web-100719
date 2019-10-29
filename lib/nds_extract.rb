@@ -90,7 +90,7 @@ outer_array = [inner_array]
   # * source: An Array of Hashes containing director information including
   # :name and :movies
   #
-pp array
+pp outer_array
   index = 0
   inner_index = 0
   while index < source.length do
