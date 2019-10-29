@@ -94,8 +94,8 @@ inner_array = [{title: 0, director_name: 10}]
   index = 0
   array = []
   while index < source.length do
-    director = source[index]
-    array.push(movies_with_director_key(director,source))
+    director = source[index][:name]
+    array.push(movies_with_director_key(director, source))
  binding.pry
   end
 
