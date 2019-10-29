@@ -93,7 +93,7 @@ inner_array = [{title: 0, director_name: 10}]
 #pp outer_array
   index = 0
   inner_index = 0
-  array_index
+  array_index = 0
   while index < source.length do
     while inner_index < source[index].length do
       inner_array[array_index][:director_name] = source[index][:name]
