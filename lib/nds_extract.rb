@@ -101,7 +101,6 @@ inner_array = [{title: 0, director_name: 10}]
       inner_index += 1
       array_index += 1
   end
-  
   index += 1
 end
   pp inner_array
