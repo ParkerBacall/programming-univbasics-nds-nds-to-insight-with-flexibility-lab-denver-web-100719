@@ -1,6 +1,6 @@
 # Provided, don't edit
 require 'directors_database'
-
+require 'pry'
 # A method we're giving you. This "flattens"  Arrays of Arrays so: [[1,2],
 # [3,4,5], [6]] => [1,2,3,4,5,6].
 
@@ -105,6 +105,7 @@ inner_array = [{title: 0, director_name: 10}]
   index += 1
 end
   pp inner_array
+  binding.pry
  return inner_array
 
   # RETURN:
