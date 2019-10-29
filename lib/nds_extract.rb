@@ -97,6 +97,7 @@ inner_array = [{title: 0, director_name: 10}]
     director = source[index][:name]
     movies = source[index][:movies]
     array.push(movies_with_director_key(director, movies))
+    index += 1
   end
 array
 
