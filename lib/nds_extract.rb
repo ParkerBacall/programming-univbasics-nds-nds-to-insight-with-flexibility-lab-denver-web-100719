@@ -94,14 +94,14 @@ hash = {}
   inner_index = 0
   while index < source.length do
     while inner_index < source[:movies].length do
-      hash << {"title": source[index][:movies][inner_index][:title] ,"director_name": source[index][:name]}
+      pp {"title": source[index][:movies][inner_index][:title] ,"director_name": source[index][:name]}
       #array << source[index][:movies][inner_index]
     index += 1
   end
   inner_index += 1
 end
 
-  pp hash
+
   # RETURN:
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
