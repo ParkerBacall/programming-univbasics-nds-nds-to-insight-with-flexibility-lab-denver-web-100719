@@ -99,6 +99,7 @@ inner_array = [{title: 0, director_name: 10}]
       inner_array[array_index][:director_name] = source[index][:name]
       inner_array[array_index][:title] = source[index][:movies][inner_index][:title]
       inner_index += 1
+      array_index += 1
   end
   
   index += 1
