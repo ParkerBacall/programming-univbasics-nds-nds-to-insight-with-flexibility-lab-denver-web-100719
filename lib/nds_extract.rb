@@ -94,7 +94,7 @@ hash = {}
   inner_index = 0
   while index < source.length do
     #while inner_index < source[:movies].length do
-
+    pp source[index]
     index += 1
   end
   #inner_index += 1
