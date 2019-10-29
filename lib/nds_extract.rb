@@ -101,8 +101,7 @@ hash = {}
   inner_index += 1
 end
 
-  pp array
-  array
+  pp hash
   # RETURN:
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
