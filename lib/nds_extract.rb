@@ -98,7 +98,7 @@ inner_array = [{title: 0, director_name: 10}]
     while inner_index < source[index].length do
       #inner_array[array_index][:director_name] = source[index][:name]
       #inner_array[array_index][:title] = source[index][:movies][inner_index][:title]
-      inner_array[array_index]= {title: source[index][:movies][inner_index][:title], director_name: source[index][:movies][inner_index][:title]}
+      inner_array[array_index]= {title: source[index][:movies][inner_index][:title], director_name: source[index]}
       inner_index += 1
       array_index += 1
   end
