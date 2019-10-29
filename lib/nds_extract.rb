@@ -98,7 +98,6 @@ inner_array = [{title: 0, director_name: 10}]
       inner_array[index][:director_name] = source[index][:name]
       inner_array[index][:title] = source[index][:movies][inner_index][:title]
       inner_index += 1
-      pp inner_array
   end
   index += 1
 end
