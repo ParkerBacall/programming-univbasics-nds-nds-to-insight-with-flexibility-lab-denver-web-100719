@@ -104,7 +104,6 @@ inner_array = [{title: 0, director_name: 10}]
   end
   index += 1
 end
-  pp inner_array
  return inner_array
 
   # RETURN:
