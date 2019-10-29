@@ -100,7 +100,7 @@ inner_array = [{title: 0, director_name: 10}]
       inner_index += 1
       pp inner_array
   end
-  inner_index += 1
+  index += 1
 end
   inner_array
  return inner_array
