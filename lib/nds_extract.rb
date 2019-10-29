@@ -89,7 +89,7 @@ array = [{title: nil, director_name: nil}]
   # * source: An Array of Hashes containing director information including
   # :name and :movies
   #
-
+pp array
   index = 0
   inner_index = 0
   while index < source.length do
