@@ -82,7 +82,7 @@ def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
 
- pp source[0][:movies][0][title]
+ pp source[0][:movies][0][:title]
 array = []
 hash = {}
   # INPUT:
@@ -94,7 +94,7 @@ hash = {}
   inner_index = 0
   while index < source.length do
     while inner_index < source[:movies].length do
-  
+
     index += 1
   end
   inner_index += 1
