@@ -95,7 +95,7 @@ outer_array = [inner_array]
   inner_index = 0
   while index < source.length do
     #while inner_index < source[:movies].length do
-    pp source[index]
+    inner_array[index][:tite] =
     index += 1
   end
   #inner_index += 1
