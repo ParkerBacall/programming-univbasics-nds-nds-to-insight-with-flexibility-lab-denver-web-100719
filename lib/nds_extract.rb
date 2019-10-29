@@ -81,8 +81,8 @@ end
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
-
- pp source[0][:movies][0][:title]
+pp source
+ #pp source[0][:movies][0][:title]
 
 inner_array = [{title: 0, director_name: 10}]
 #outer_array = [inner_array]
