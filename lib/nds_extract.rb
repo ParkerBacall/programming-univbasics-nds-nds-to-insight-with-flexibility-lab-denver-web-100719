@@ -84,7 +84,7 @@ def movies_with_directors_set(source)
 
  pp source[0][:movies][0][:title]
 
-inner_array = [{title: 0 director_name: 10}]
+inner_array = [{title: 0, director_name: 10}]
 #outer_array = [inner_array]
   # INPUT:
   # * source: An Array of Hashes containing director information including
@@ -100,6 +100,7 @@ inner_array = [{title: 0 director_name: 10}]
      pp inner_array
     index += 1
   end
+  pp inner_array
   inner_index += 1
 end
  return inner_array
