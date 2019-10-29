@@ -21,7 +21,7 @@ def flatten_a_o_a(aoa)
 end
 
 def movie_with_director_name(director_name, movie_data)
-  { 
+  {
     :title => movie_data[:title],
     :worldwide_gross => movie_data[:worldwide_gross],
     :release_year => movie_data[:release_year],
@@ -34,11 +34,24 @@ end
 # Your code after this point
 
 def movies_with_director_key(name, movies_collection)
+
+
+array = []
   # GOAL: For each Hash in an Array (movies_collection), provide a collection
   # of movies and a directors name to the movie_with_director_name method
   # and accumulate the returned Array of movies into a new Array that's
   # returned by this method.
   #
+  i = 0
+  while i < movies_collection.length do
+  data = movie_with_director_name(name, movies_collection[i])
+  array.push(data)
+    i += 1
+  end
+  array
+#  pp array
+
+
   # INPUT:
   # * name: A director's name
   # * movies_collection: An Array of Hashes where each Hash represents a movie
@@ -68,10 +81,27 @@ end
 def movies_with_directors_set(source)
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
+
+ #pp source[0][:movies][0][title]
+array = []
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
   #
+
+  index = 0
+  inner_index = 0
+  while index < source.length do
+    while inner_index < source[:movies].length do
+      array << {"title": source[index][:movies][inner_index][:title] ,"director_name": source[index][:name]}
+      #array << source[index][:movies][inner_index]
+    index += 1
+  end
+  inner_index += 1
+end
+
+  pp array
+  array
   # RETURN:
   #
   # Array of Arrays containing all of a director's movies. Each movie will need
