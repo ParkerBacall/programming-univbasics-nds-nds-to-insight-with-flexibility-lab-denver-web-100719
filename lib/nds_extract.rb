@@ -95,12 +95,12 @@ inner_array = [{title: nil, director_name: nil}]
   inner_index = 0
   while index < source.length do
     #while inner_index < source[:movies].length do
-    inner_array[index][:director_name] = source[index]
+    pp source[index]
     index += 1
   end
   #inner_index += 1
 #end
- pp inner_array
+ #pp inner_array
 
   # RETURN:
   #
