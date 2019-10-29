@@ -94,7 +94,7 @@ hash = {}
   inner_index = 0
   while index < source.length do
     while inner_index < source[:movies].length do
-      array << {"title": source[index][:movies][inner_index][:title] ,"director_name": source[index][:name]}
+      hash << {"title": source[index][:movies][inner_index][:title] ,"director_name": source[index][:name]}
       #array << source[index][:movies][inner_index]
     index += 1
   end
