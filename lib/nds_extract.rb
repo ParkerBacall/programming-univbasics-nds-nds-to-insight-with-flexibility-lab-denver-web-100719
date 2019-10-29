@@ -91,20 +91,11 @@ inner_array = [{title: 0, director_name: 10}]
   # :name and :movies
   #
 #pp outer_array
-  index = 0   
+  index = 0
   while index < source.length do
-
-      #inner_array[array_index][:director_name] = source[index][:name]
-      #inner_array[array_index][:title] = source[index][:movies][inner_index][:title]
-      inner_array[array_index]= {title: source[index][:movies][inner_index][:title], director_name: source[index]}
-      inner_index += 1
-      array_index += 1
+ binding.pry
   end
-  index += 1
-end
-  pp inner_array
-  binding.pry
- return inner_array
+
 
   # RETURN:
   #
