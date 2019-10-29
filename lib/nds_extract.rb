@@ -100,7 +100,7 @@ outer_array = [inner_array]
   end
   #inner_index += 1
 #end
-
+ pp inner_array
 
   # RETURN:
   #
