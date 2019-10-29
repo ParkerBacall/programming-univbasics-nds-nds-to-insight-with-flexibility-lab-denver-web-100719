@@ -99,6 +99,7 @@ inner_array = [{title: 0, director_name: 10}]
     array.push(movies_with_director_key(director, movies))
  binding.pry
   end
+array
 
 
   # RETURN:
