@@ -92,9 +92,10 @@ inner_array = [{title: 0, director_name: 10}]
   #
 #pp outer_array
   index = 0
+  array = []
   while index < source.length do
     director = source[index]
-    
+
  binding.pry
   end
 
