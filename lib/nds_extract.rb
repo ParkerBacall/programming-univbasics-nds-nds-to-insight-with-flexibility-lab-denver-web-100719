@@ -83,8 +83,8 @@ def movies_with_directors_set(source)
   #
 
  pp source[0][:movies][0][:title]
-array = []
-hash = {title: nil, director_name: nil}
+array = [{title: nil, director_name: nil}]
+
   # INPUT:
   # * source: An Array of Hashes containing director information including
   # :name and :movies
