@@ -101,7 +101,7 @@ inner_array = [{title: 0, director_name: 10}]
   end
   inner_index += 1
 end
- #pp inner_array
+ pp inner_array
 
   # RETURN:
   #
